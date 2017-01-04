@@ -1,0 +1,120 @@
+
+main {
+  margin-top:50px;
+}
+
+body {
+	background: url("../img/violin-large.jpg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+  	font-family: 'Open Sans', sans-serif;
+}
+
+
+footer {
+	background-color:rgba(0, 0, 0, 0.9);
+	padding:50px 50px 10px 50px;
+	color:white;
+}
+
+.jumbotron .container {
+	max-width:950px;
+}
+
+/* Navigation Rules */
+
+.nav-img {
+  width:81px;
+  height:23px;
+}
+
+.navbar {
+	border: 0;
+}
+
+.navbar-default {
+	background-color: #bcd43b;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:#333333;
+}
+
+.navbar-default .navbar-nav>li:hover {
+	background-color:#87932e;
+}
+
+.navbar-default .navbar-nav>li.selected>a {
+	color:white;
+}
+
+.selected, .navbar-default .navbar-nav>li.selected:hover {
+	background-color:#ce0b89;
+}
+
+
+/* Carousel Rules */
+
+.carousel-inner img {
+	margin:auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none !important;
+}
+
+/* Panel Rules */
+
+.panel {
+	margin-top:15px;
+}
+
+.panel .panel-body {
+	color:#1c1c1c;
+}
+
+.accent {
+	color:#ce0b89;
+}
+
+/* Thumbnail Rules */
+
+.thumbnail .caption p {
+	font-size:14px;
+}
+
+/* Detail Page Rules */
+
+.img-center {
+	margin:auto;
+}
+
+.page-intro {
+	padding-top:20px;
+	color:white;
+}
+
+.margin-top-bottom {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.margin-top{
+	margin-top:30px;
+}
+
+.flex-row {
+	display:flex;
+}
+
+.flex-8 {
+	flex:8;
+	text-align:center;
+}
+
+.flex-2 {
+	flex:2;
+	text-align:center;
+}

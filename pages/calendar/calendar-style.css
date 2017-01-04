@@ -1,0 +1,35 @@
+body {
+	background: url("../../img/clarinet.jpg") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.calendar-flex-row {
+	display:flex;
+}
+
+.calendar-flex-row>div {
+	flex:1 0 0%;
+	text-align: center;
+}
+
+.break {
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+.terms {
+	margin-top:100px;
+}
+
+.inline {
+	display:inline;
+}
+
+.constrain-width{
+	max-width:600px;
+	margin:auto;
+}
